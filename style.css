@@ -73,5 +73,28 @@ nav.navComp li {
 
 nav.navComp li span { margin-left : 10%; }
 
-#choixComp { color : black; }
+#choixComp1 { color : black; }
 nav.navComp li:hover { color : black; }
+
+
+section.comp h2 {
+	text-align : center;
+
+	padding    : 2%;
+
+	text-decoration: underline;
+	text-decoration-color : #6A6731;
+	text-underline-offset: 50%;
+	text-underline-position : under;
+}
+
+
+section.comp h2 hr { width : calc() }
+
+
+section.comp {
+	width : 70%;
+	padding : 0 25% 0 25%;
+}
+
+#comp2, #comp3, #comp4, #comp5, #comp6 { display : none; }
