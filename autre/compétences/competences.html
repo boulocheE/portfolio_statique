@@ -8,6 +8,7 @@
 		<meta content = 'Author' lang = 'fr' name = 'BOULOCHE Eleonore'>
 
 		<link rel = 'stylesheet' href = '../style.css' media = 'all' type = 'text/css'>
+		<script src = "script.js"></script>
 	</head>
 
 
@@ -28,12 +29,42 @@
 
 		<nav class = "navComp">
 			<ul>
-				<li id = "choixComp1"> Compétence 1 - <br> <span> Réaliser un développement d'application  </span> </li>
-				<li id = "choixComp2"> Compétence 2 - <br> <span> Optimiser des applications informatiques </span> </li>
-				<li id = "choixComp3"> Compétence 3 - <br> <span> Administrer des systèmes informatiques   </span> </li>
-				<li id = "choixComp4"> Compétence 4 - <br> <span> Gérer des données de l'information       </span> </li>
-				<li id = "choixComp5"> Compétence 5 - <br> <span> Conduire un projet                       </span> </li>
-				<li id = "choixComp6"> Compétence 6 - <br> <span> Travailler dans une équipe informatique  </span> </li>
+				<li id = "choixComp1" onclick = "choixMenu(event, 1)">
+					Compétence 1 - <br>
+					<span> Réaliser un développement d'application </span>
+					<div id ="choixMenuComp1"></div>
+				</li>
+
+				<li id = "choixComp2" onclick = "choixMenu(event, 2)">
+					Compétence 2 - <br>
+					<span> Optimiser des applications informatiques </span>
+					<div id ="choixMenuComp2"></div>
+				</li>
+
+				<li id = "choixComp3" onclick = "choixMenu(event, 3)">
+					Compétence 3 - <br>
+					<span> Administrer des systèmes informatiques </span>
+					<div id ="choixMenuComp3"></div>
+				</li>
+
+				<li id = "choixComp4" onclick = "choixMenu(event, 4)">
+					Compétence 4 - <br>
+					<span> Gérer des données de l'information </span>
+					<div id ="choixMenuComp4"></div>
+				</li>
+
+				<li id = "choixComp5" onclick = "choixMenu(event, 5)">
+					Compétence 5 - <br>
+					<span> Conduire un projet </span>
+					<div id ="choixMenuComp5"></div>
+				</li>
+
+				<li id = "choixComp6" onclick = "choixMenu(event, 6)">
+					Compétence 6 - <br>
+					<span> Travailler dans une équipe informatique </span>
+					<div id ="choixMenuComp6"></div>
+				 </li>
+
 			</ul>
 		</nav>
 
@@ -124,7 +155,7 @@
 				<ul>
 					<li> Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...) </li>
 					<li> Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)                       </li>
-					<l> Expérimenter la notion de compilation et les représentations bas niveau des données                        </li>
+					<li> Expérimenter la notion de compilation et les représentations bas niveau des données                       </li>
 					<li> Formaliser et mettre en oeuvre des outils mathématiques pour l’informatique                               </li>
 				</ul>
 
@@ -139,10 +170,10 @@
 				</ul>
 
 				<h5> Projets scolaires et personnels </h5>
-
+<!-- 
 				<ul>
 					
-				</ul>
+				</ul> -->
 			</section>
 		</section>
 
@@ -176,7 +207,60 @@
 				<ul>
 					<li> Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...) </li>
 					<li> Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)                       </li>
-					<l> Expérimenter la notion de compilation et les représentations bas niveau des données                        </li>
+					<li> Expérimenter la notion de compilation et les représentations bas niveau des données                        </li>
+					<li> Formaliser et mettre en oeuvre des outils mathématiques pour l’informatique                               </li>
+				</ul>
+
+
+				<h4> Projets en liens : </h4>
+
+				<h5> SAÉ </h5>
+
+				<ul>
+					<li> S1.01 - Comparaison d'approches algorithmiques  </li>
+					<li> S2.01 - Exploration algorithmique d'un problème </li>
+				</ul>
+
+				<h5> Projets scolaires et personnels </h5>
+
+				<!-- <ul>
+					
+				</ul> -->
+			</section>
+		</section>
+
+
+
+		<section class = "comp" id = "comp4">
+			<h2> Compétence 4 : Gérer des données de l'information </h2>
+
+			<article>
+				<h3> Appréhender et construire des algorithmes </h3>
+				<p> Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources... </p>
+
+				<ul>
+					<li> en formalisant et modélisant des situations complexes;          </li>
+					<li> en rescensant les algorithmes et les structures données usuels; </li>
+					<li> en s'appuyant sur des schémas de raisonnement;                  </li>
+					<li> en justifiant les choix et validant les résultats.              </li>
+				</ul>
+			</article>
+
+			<section>
+				<h4> Situations professionnelles : </h4>
+
+				<ul>
+					<li> Améliorer les performances des programmes dans des contextes contraints; </li>
+					<li> Limiter l'impact environnemental d'une application informatique;         </li>
+					<li> Mettre en place des applications informatiques adaptées et innovantes.   </li>
+				</ul>
+
+				<h4> Apprentissages Critiques : </h4>
+
+				<ul>
+					<li> Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...) </li>
+					<li> Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)                       </li>
+					<li> Expérimenter la notion de compilation et les représentations bas niveau des données                        </li>
 					<li> Formaliser et mettre en oeuvre des outils mathématiques pour l’informatique                               </li>
 				</ul>
 
@@ -197,8 +281,6 @@
 				</ul>
 			</section>
 		</section>
-
-		<section class = "comp" id = "comp4"></section>
 
 		<section class = "comp" id = "comp5"></section>
 

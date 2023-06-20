@@ -8,27 +8,7 @@
 
 
 /* NAVIGATION */
-nav.navMenu {
-	width : 100%;
-
-	position : fixed;
-	top : 0;
-	left : 0;
-}
-
-nav.navMenu ul { margin-right : 3%; }
-
-nav.navMenu li {
-	width : 8%;
-	float : right;
-	list-style: none;
-
-	text-align: center;
-
-	padding : 1% 0 1% 0;
-}
-
-body { margin-top : 5%; }
+a:hover div { margin-left : 5%; }
 
 
 #choixPage {
@@ -36,19 +16,53 @@ body { margin-top : 5%; }
 	border-bottom : 2px solid #6A6731;
 }
 
-nav.navMenu li:hover {
-	background    : rgba( 106,103,49, 0.3 );
-	border-bottom : 2px solid #6A6731;
-}
 
-
-nav.navMenu li a {
+a {
 	color : black;
 	text-decoration: none;
 }
 
+li {
+	border-left   : 3px solid white;
+	border-bottom : 3px solid white;
+}
+
+li.choixComp {
+	border-left   : 3px solid #6A6731;
+	border-bottom : 3px solid #6A6731;
+}
+
+article {
+	width : 60%;
+
+	margin-left : 30%;
+	padding : 2% 0 7% 0;
+
+	display     : none;
+
+	text-align: justify;
+}
+
+article#page1 { display : block; }
+
+nav.navComp {
+	position : fixed;
+
+	top : 0;
+	left : 0;
+}
 
 
+body img {
+	margin-left : 15%;
+	width : 70%;
+}
+
+
+article span { color : #6A6731; }
+
+
+/*
 /* ------------------------------- */
 /* ------------------------------- */
 /*           Competences           */
@@ -57,7 +71,7 @@ nav.navMenu li a {
 
 nav.navComp
 {
-	width : 20%;
+	width : 22%;
 	margin-left : 2%;
 	float : left;
 }
@@ -73,28 +87,97 @@ nav.navComp li {
 
 nav.navComp li span { margin-left : 10%; }
 
-#choixComp1 { color : black; }
-nav.navComp li:hover { color : black; }
+
+span.coulB, span.coulR { font-weight : bold; }
+
+span.coulB { color : #3D85C6; }
+span.coulR { color : #CC0000; }
 
 
-section.comp h2 {
+img {
+	width : 100%;
+
+	border : 2px solid #6A6731;
+}
+
+figcaption { text-align: center; }
+
+
+div.btnPageS, div.btnPageP {
+	Width : 6%;
+
+	text-align: center;
+	color : white;
+
+	padding : 1%;
+
+	background : #6A6731;
+}
+
+
+div.btnPageP {
+	position : fixed;
+
+	left : 28%;
+	bottom : 5%;
+}
+
+
+div.btnPageS {
+	position : fixed;
+
+	left : 84%;
+	bottom : 5%;
+}
+
+
+
+div.etape1 > h3, div.etape2 > h3, div.etape3 > h3, div.etape4 > h3, div.etape5 > h3 {
+	width : 10%;
+	padding : 2%;
+	text-align : center;
+	margin : 0 0 1% 43%;
+}
+
+div.etape1 > p, div.etape2 > p, div.etape3 > p, div.etape4 > p, div.etape5 > p {
+	width : 40%;
+
+	margin-left : 30%;
+	padding : 1%;
+
 	text-align : center;
 
-	padding    : 2%;
-
-	text-decoration: underline;
-	text-decoration-color : #6A6731;
-	text-underline-offset: 50%;
-	text-underline-position : under;
 }
 
 
-section.comp h2 hr { width : calc() }
+div.etape1 > h3 { background : rgba( 106, 103, 49, 0.6 ); }
+div.etape2 > h3 { background : rgba( 106, 103, 49, 0.7 ); }
+div.etape3 > h3 { background : rgba( 106, 103, 49, 0.8 ); }
+div.etape4 > h3 { background : rgba( 106, 103, 49, 0.9 ); }
+div.etape5 > h3 { background : rgba( 106, 103, 49,   1 ); }
 
 
-section.comp {
-	width : 70%;
-	padding : 0 25% 0 25%;
+div.etape1 > p { border : 2px solid rgba( 106, 103, 49, 0.6 ); }
+div.etape2 > p { border : 2px solid rgba( 106, 103, 49, 0.7 ); }
+div.etape3 > p { border : 2px solid rgba( 106, 103, 49, 0.8 ); }
+div.etape4 > p { border : 2px solid rgba( 106, 103, 49, 0.9 ); }
+div.etape5 > p { border : 2px solid rgba( 106, 103, 49,   1 ); }
+
+
+div.fleche { margin : calc(2% - 10px) 0 calc(2% - 10px) 49%; }
+
+
+#pointe1, #pointe2, #pointe3, #pointe4 {
+	width: 0;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-top: 11px solid black;
 }
 
-#comp2, #comp3, #comp4, #comp5, #comp6 { display : none; }
+#haut1, #haut2, #haut3, #haut4 {
+	height : 20px;
+	width : 6px;
+	background-color: black;
+	margin : 0 7px 0 7px;
+}

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang = 'fr'>
+
+	<head>
+		<title> Compétence 5 </title>
+
+		<meta charset = 'utf-8'>
+		<meta content = 'Author' lang = 'fr' name = 'BOULOCHE Eleonore'>
+
+		<link rel = 'stylesheet' href = '../style.css' media = 'all' type = 'text/css'>
+		<script src = "../script.js"></script>
+	</head>
+
+
+	<body id = "competence5">
+
+		<header>
+			<nav class = "navComp">
+				<h1> <a href = "../index.html"> Portfolio </a> </h1>
+
+				<ul>
+					<li>
+						<a href = "competence1.html">
+							<div>
+								Compétence 1 - <br>
+								<span> Réaliser un développement d'application </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence2.html">
+							<div>
+								Compétence 2 - <br>
+								<span> Optimiser des applications informatiques </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence3.html">
+							<div>
+								Compétence 3 - <br>
+								<span> Administrer des systèmes informatiques </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence4.html">
+							<div>
+								Compétence 4 - <br>
+								<span> Gérer des données de l'information </span>
+							</div>
+						</a>
+					</li>
+
+					<li class = "choixComp">
+						<a href = "competence5.html">
+							<div>
+								Compétence 5 - <br>
+								<span> Conduire un projet </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence6.html">
+							<div>
+								Compétence 6 - <br>
+								<span> Travailler dans une équipe informatique </span>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</nav>
+		</header>
+
+
+		<article id = "page1">
+			<header>
+				<h2> Compétence 5 </h2>
+			</header>
+
+			<section>
+				<h3> Sommaire </h3>
+
+				<ol>
+					<li onclick = "pageSuivante(event, '1', '3')"> Appréhender les besoins du client et de l'utilisateur                         </li>
+					<li onclick = "pageSuivante(event, '1', '4')"> Mettre en place les outils de gestion de projets                              </li>
+					<li onclick = "pageSuivante(event, '1', '5')"> Indentifier les acteurs et les différentes phases d'un cycle de développement </li>
+				</ol>
+			</section>
+
+			<section>
+				<h3> Projets </h3>
+
+				<ul>
+					<li> Générateur de planning      </li>
+					<li> Rencontres professionnelles </li>
+					<li> CinkeTera                   </li>
+				</ul>
+			</section>
+
+			<div class = "btnPageS" onclick = "pageSuivante( event, '1', '2' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page2">
+			<header>
+				<h2> <span> Projet 3 : </span> CinkeTera </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					CinkeTera est un jeu qui se déroule en 2 manches. Il peut se jouer à deux ou à plusieurs. <br><br>
+
+					Au début de la partie, la couleur avec laquelle vous débutez est tirée au sort.
+					Le point de départ de la couleur <span class = "coulR">rouge est Tico</span> et le point de départ de la couleur <span class = "coulB">bleue est Mutaa</span>.<br><br>
+
+					Dans ce jeu, vous disposez de 8 cartes couleurs, et 2 cartes jokers. Les cartes couleurs représentent la couleur de l'île que vous devez jouer, tandis que les jokers vous laisse la liberté de choisir la couleur.
+					Parmis ces 10 cartes, vous disposez de 5 cartes primaires à la bordure noire et 5 cartes secondaires de couleur blanche. <br><br>
+
+					Une manche se termine lorsque les 5 cartes primaires, c’est-à-dire les cartes à la
+					bordure noire, ont toutes été tirées. <br><br>
+				</p>
+
+				<figure>
+					<img src = '../images/competence5/CinkeTera.png' alt = 'Image du jeu'>
+
+					<figcaption> <i> Schéma du jeu </i> </figcaption>
+				</figure>
+
+				<ol>
+					<li> Le plateau                                              </li>
+					<li> Les délimitations des régions                           </li>
+					<li> Les voies maritimes aux points bonus                    </li>
+					<li> Le journal                                              </li>
+					<li> Le résultat du score                                    </li>
+					<li> Boutons permettant de passer son tour ou quitter le jeu </li>
+					<li> Le paquet                                               </li>
+					<li> La carte actuelle                                       </li>
+					<li> La voie maritime choisie par l'utilisateur              </li>
+					<li> Les voies maritimes pouvant être jouées                 </li>
+					<li> Les voies maritimes qui ne sont pas encore jouées       </li>
+				</ol>
+
+			</section>
+
+
+			<section>
+				<h3> Langage utilisé : </h3>
+
+				<ul>
+					<li> Java </li>
+				</ul>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '2', '1' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '2', '3' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+
+
+		<article id = "page3">
+
+			<header>
+				<h2> <span> 1. : </span> Appréhender les besoins du client et de l'utilisateur </h2>
+			</header>
+
+
+			<section>
+
+				<div class = "etape1">
+					<h3> Etape 1 : </h3>
+
+					<p>
+						Rencontre avec le client.
+					</p>
+				</div>
+
+				<div class = "fleche">
+					<div id = "haut1"  ></div>
+					<div id = "pointe1"></div>
+				</div>
+
+				<div class = "etape3">
+					<h3> Etape 2 : </h3>
+
+					<p>
+						Élaboration d'un formulaire destiner à l'utilisateur à l'aide de <b>Google Forms</b>.
+					</p>
+				</div>
+
+				<div class = "fleche">
+					<div id = "haut2"  ></div>
+					<div id = "pointe2"></div>
+				</div>
+
+				<div class = "etape5">
+					<h3> Etape 3 : </h3>
+
+					<p>
+						Création des personas suite aux réponses obtenues dans notre questionnaire à l'aide de <b>Canvas</b>.
+					</p>
+				</div>
+
+			</section>
+
+
+			<section>
+				<h3> Rencontre avec le client </h3>
+
+				<p>
+					Durant cette rencontre, nous avons posé différentes questions afin d'obtenir plus d'informations sur le besoin du client. <br>
+					Suite à cela, nous avons créé une synthèse des éléments clés que nous avons pu obtenir comme ci-dessous :
+				</p>
+
+				<ul>
+					<li> Cible : <i>personnel éducatif, accès à tous les IUT... ;                                                           </i> </li>
+					<li> Forme : <i>site web intuitif et écoresponsable, avec un rendu au choix... ;                                        </i> </li>
+					<li> Pratique et fonctionnalités : <i> utilisation d'un fichier texte ou excel, la disponibilité des salles, pauses...; </i> </li>
+					<li> Suppléments : <i> logo, nom et connexion non obligatoire...                                                        </i> </li>
+				</ul>
+			</section>
+
+
+			<section>
+				<h3> Élaboration dun formulaire </h3>
+
+				<p> Afin de proposer une application qui répond aux besoins de l'utilisateur, nous avons créé un questionnaire à l'intention des utilisateurs. </p>
+
+				<figure>
+					<img src = '../images/competence5/descriptionForm.png' alt = 'Présentation du projet'>
+
+					<figcaption> <i> Présentation du projet </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence5/infoGenerales.png' alt = 'Présentation du projet'>
+
+					<figcaption> <i> Questions générales </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence5/questionsTech.png' alt = 'Questions des différentes fonctionnalités'>
+
+					<figcaption> <i> Questions des différentes fonctionnalités </i> </figcaption>
+				</figure>
+
+
+				<h3> Quelques réponses suite à notre questionnaire... </h3>
+
+				<figure>
+					<img src = '../images/competence5/questionsTech.png' alt = 'Questions des différentes fonctionnalités'>
+
+					<figcaption> <i> Questions des différentes fonctionnalités </i> </figcaption>
+				</figure>
+			</section>
+
+
+			<section>
+				<h3> Création des personas </h3>
+
+				<p>
+					Suite aux réponses que nous avons pu obtenir de la part des utilisateurs, nous avons pu créer deux personas.
+					Ainsi, à l'aide des personas, nous avons pu obtenir un utilisateur type.
+				</p>
+
+				<figure>
+					<img src = '../images/competence5/persona1.png' alt = 'Premier persona'>
+
+					<figcaption> <i> Premier persona </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence5/persona2.png' alt = 'Deuxième persona'>
+
+					<figcaption> <i> Deuxième persona </i> </figcaption>
+				</figure>
+			</section>
+
+
+			<section>
+				<h3> Création de la maquette </h3>
+
+				<p>
+					Lorsque nos personas ont été créé, nous avons pu créé notre maquette, en prenant au compte les informations que nous avions gardé pour nos personas. <br><br>
+
+					Dans un premier temps, nous avons créé la maquette pour un ordinateur :
+				</p>
+
+				<figure>
+					<img src = '../images/competence5/planning1.png' alt = 'Maquette du planning ordinateur'>
+
+					<figcaption> <i> Générateur des groupes </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence5/planning2.png' alt = 'Maquette du planning ordinateur'>
+
+					<figcaption> <i> Affichage des horaires de passage des groupes </i> </figcaption>
+				</figure>
+
+
+				<p> Puis, nous avons créé la maquette pour un téléphone portable : </p>
+
+				<figure>
+					<img src = '../images/competence5/planning3.png' alt = 'Maquette du planning téléphone portable'>
+
+					<figcaption> <i> Générateur des groupes </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence5/planning4.png' alt = 'Maquette du planning téléphone portable'>
+
+					<figcaption> <i> Affichage des différents groupes </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence5/planning5.png' alt = 'Maquette du planning téléphone portable'>
+
+					<figcaption> <i> Affichage des horaires de passage des groupes </i> </figcaption>
+				</figure>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '3', '2' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '3', '4' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+
+
+		<article id = "page4">
+
+			<header>
+				<h2> <span> 2. : </span> Mettre en place les outils de gestion de projets </h2>
+			</header>
+
+
+			<section>
+
+				<div>
+					<p>
+						Afin de nous répartir les tâches, et pour faciliter notre travail et communicatinon, nous avons utilisé l'outil Trello. Concernant le partage de nos documents, nous avons utilisé Google Drive et Canvas.<br><br>
+
+						Tout d'abord, Google Drive nous a permis de partagé nos différents fichiers.
+					</p>
+
+					<figure>
+						<img src = '../images/competence5/googleDrive.png' alt = 'Utilisation de Drive'>
+
+						<figcaption> <i> Utilisation de Google Drive </i> </figcaption>
+					</figure>
+
+					<p> Puis, nous avons utilisé Canva pour créé nos flyers et notre diaporama. </p>
+
+					<figure>
+						<img src = '../images/competence5/canvas.png'>
+
+						<figcaption> <i> Utilisation de Canvas </i> </figcaption>
+					</figure>
+
+					<p> Enfin, nous avons utilisé Trello, afin de savoir quelle tâche devait être faite à quel moment, et ainsi, mieux gérer notre temps. </p>
+				</div>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '4', '3' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '4', '5' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+
+		<article id = "page5">
+
+			<header>
+				<h2> <span> 3. : </span> Identifier les acteurs et les différentes phases d'un cycle de développement </h2>
+			</header>
+
+
+			<section>
+
+				<div>
+					<h3> Les acteurs </h3>
+
+					<p>
+						Durant ce projet, nous nous sommes répartis le travail. Etant une équipe de 5 personnes, nous avons créé 2 petits groupes.<br>
+						Le premier, consituer de deux membres, c'est occupé de la partie IHM, c'est à dire la partie métier. Ensuite, le deuxième, constitué d'un groupe de 3 personnes, s'est occupé de la partie métier.<br>
+					</p>
+				</div>
+
+			</section>
+
+
+			<section>
+				<div>
+					<h3> Les phases </h3>
+
+					<p> Nous avons répartis ce projet en 3 grandes phases : </p>
+
+					<ul>
+						<li>
+							La partie technique : les graphes
+
+							<figure>
+								<img src = '../images/competence5/SAE2.02.png' alt = 'Graphes'>
+
+								<figcaption> <i> Image de l'IHM des graphes de la SAE 2.02 </i> </figcaption>
+							</figure>
+						</li>
+						<li> Développement du jeu selon le besoin client                                  </li>
+						<li> Ajout des avenants                                                           </li>
+						<li> Vréation des scénarios dans le but de tester les différentes fonctionnalités </li>
+					</ul>
+				</div>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '5', '4' )">
+				← Précédent
+			</div>
+
+
+		</article>
+
+
+	</body>
+
+</html>

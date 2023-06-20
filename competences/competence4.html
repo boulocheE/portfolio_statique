@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang = 'fr'>
+
+	<head>
+		<title> Compétence 4 </title>
+
+		<meta charset = 'utf-8'>
+		<meta content = 'Author' lang = 'fr' name = 'BOULOCHE Eleonore'>
+
+		<link rel = 'stylesheet' href = '../style.css' media = 'all' type = 'text/css'>
+		<script src = "../script.js"></script>
+	</head>
+
+
+	<body id = "competences">
+
+		<header>
+			<nav class = "navComp">
+				<h1> <a href = "../index.html"> Portfolio </a> </h1>
+
+				<ul>
+					<li>
+						<a href = "competence1.html">
+							<div>
+								Compétence 1 - <br>
+								<span> Réaliser un développement d'application </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence2.html">
+							<div>
+								Compétence 2 - <br>
+								<span> Optimiser des applications informatiques </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence3.html">
+							<div>
+								Compétence 3 - <br>
+								<span> Administrer des systèmes informatiques </span>
+							</div>
+						</a>
+					</li>
+
+					<li class = "choixComp">
+						<a href = "competence4.html">
+							<div>
+								Compétence 4 - <br>
+								<span> Gérer des données de l'information </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence5.html">
+							<div>
+								Compétence 5 - <br>
+								<span> Conduire un projet </span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href = "competence6.html">
+							<div>
+								Compétence 6 - <br>
+								<span> Travailler dans une équipe informatique </span>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<article id = "page1">
+			<header>
+				<h2> Compétence 4 </h2>
+			</header>
+
+			<section>
+				<h3> Sommaire </h3>
+
+				<ol>
+					<li onclick = "pageSuivante(event, '1', '3')"> Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application) </li>
+					<li onclick = "pageSuivante(event, '1', '4')"> Visualiser des données                                                                                            </li>
+					<li onclick = "pageSuivante(event, '1', '5')"> Concevoir une base de données relationnelle à partir d’un cahier des charges                                      </li>
+				</ol>
+			</section>
+
+			<section>
+				<h3> Projets </h3>
+
+				<ul>
+					<li> Base de données pour un comité d'entreprise </li>
+					<li> USC (Utilisateur - Serveur - Connexion)     </li>
+				</ul>
+			</section>
+
+			<div class = "btnPageS" onclick = "pageSuivante( event, '1', '2' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page2">
+			<header>
+				<h2> <span> Projet 1 : </span> Base de données pour un comité d'entreprise </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Une entreprise parisienne est répartie en plusieurs établissements, implantés sur des communes distinctes. Ils disposent d'un Comité d'Entreprise (CE), avec un service enfant. Ces derniers gèrent par exemple les cadeaux de NOël et les vacances. <br>
+					Nous avons créé une base de données qui permet au comité de gérer les différents cadeaux, et la distribution de ces derniers aux enfants.
+				</p>
+
+			</section>
+
+
+			<section>
+				<h3> Langage utilisé : </h3>
+
+				<ul>
+					<li> PostgreSQL </li>
+				</ul>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '2', '1' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '2', '3' )">
+				Suivant →
+			</div>
+
+		</article>
+
+
+
+		<article id = "page3">
+			<header>
+				<h2> <span> Projet 2 : </span> USC (Utilisateur - Serveur - Connexion) </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Lors d'un contrôle, nous avons créé une base de données pour enregistrer les données des différents utilisateurs.
+					Nous avons ainsi enregistré l'identifiant de l'utilisateur, le nom du serveur, l'heure de connexion...
+					Puis, nous avons créé des vues et des fonctions en plus des requêtes.
+				</p>
+
+			</section>
+
+
+			<section>
+				<h3> Langage utilisé : </h3>
+
+				<ul>
+					<li> PostgreSQL </li>
+				</ul>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '3', '2' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '3', '4' )">
+				Suivant →
+			</div>
+
+		</article>
+
+
+
+		<article id = "page4">
+			<header>
+				<h2> <span>1.</span> Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application) </h2>
+			</header>
+
+
+			<section>
+				<h3> Mettre à jour une base de données </h3>
+
+				<p> Insérer des données : </p>
+
+				<figure>
+					<img src = '../images/competence4/1/i.png' alt = 'Insertaions'>
+
+					<figcaption> <i> Requêtes pour l'insertion des données dans la base </i> </figcaption>
+				</figure>
+
+
+				<p> Modifier des données : </p>
+
+				<figure>
+					<img src = '../images/competence4/1/u.png' alt = 'Modification'>
+
+					<figcaption> <i> Requête pour la mise à jour d'une donnée dans la base </i> </figcaption>
+				</figure>
+
+
+				<p> Supprimer des données : </p>
+
+				<figure>
+					<img src = '../images/competence4/1/d.png' alt = 'Suppressions'>
+
+					<figcaption> <i> Requêtes pour la suppression de données dans la base </i> </figcaption>
+				</figure>
+
+
+				<h3> Requêtes </h3>
+
+				<p> Question 1 - Ecrire une requête qui renvoie le nombre total de connexions effectuées sur le serveur 'corton.iut.univ-lehavre.fr'. </p>
+
+				<figure>
+					<img src = '../images/competence4/1/q1.png' alt = 'Question 1'>
+
+					<figcaption> <i> Requête SQL de la pemière question </i> </figcaption>
+				</figure>
+
+
+
+				<p> Question 2 - Ecrire une requête renvoyant la liste des identifiants et des noms des utilisateurs ayant fait la connexion la plus longue le 5 Mai 2023. </p>
+
+				<figure>
+					<img src = '../images/competence4/1/q2.png' alt = 'Question 2'>
+
+					<figcaption> <i> Requête SQL de la deuxième question </i> </figcaption>
+				</figure>
+
+
+
+				<p> Question 3 - Ecrire une requête renvoyant pour chaque utilisateur son identifiant, son nom et le nombre de connexions effectuées sur le serveur 'corton.iut.univ-lehavre.fr' entre le 5 et le 10 Mai 2023. </p>
+
+				<figure>
+					<img src = '../images/competence4/1/q3.png' alt = 'Question 3'>
+
+					<figcaption> <i> Requête SQL de la troissième question </i> </figcaption>
+				</figure>
+
+
+
+				<h3> Fonctions : </h3>
+
+				<p> Question 1 - Ecrire une fonction listeServeurs prenant en paramètre une date (timestamp) et renvoyant en résultat la liste des noms des serveurs sur lesquels au moins une connexion a été effectuée depuis la date passée en paramètre. </p>
+
+				<figure>
+					<img src = '../images/competence4/1/q4.png' alt = 'Question 4'>
+
+					<figcaption> <i> Requête SQL de la première fonction </i> </figcaption>
+				</figure>
+
+
+
+				<p> Question 2 - Ecrire une fonction bilanConnexions prenant en paramètres une date de début (timestamp), une date de fin (timestamp), un nom de serveur et une durée maximale de connexion en secondes appelée seuil.. </p>
+
+				<figure>
+					<img src = '../images/competence4/1/q5.png' alt = 'Question 5'>
+
+					<figcaption> <i> Requête SQL de la deuxième fonction </i> </figcaption>
+				</figure>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '4', '3' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '4', '5' )">
+				Suivant →
+			</div>
+
+		</article>
+
+
+		<article id = "page5">
+			<header>
+				<h2> <span>2.</span> Visualiser </h2>
+			</header>
+
+
+			<section>
+
+				<h3> La requête : </h3>
+
+				<figure>
+					<img src = '../images/competence4/2/q.png' alt = 'Requête visualisation cadeaux'>
+
+					<figcaption> <i> Requête pour visualiser les cadeaux </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence4/2/r.png' alt = 'Visualisation cadeaux'>
+
+					<figcaption> <i> Résultat de la visualisation des cadeaux </i> </figcaption>
+				</figure>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '5', '4' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '5', '6' )">
+				Suivant →
+			</div>
+
+		</article>
+
+
+		<article id = "page6">
+			<header>
+				<h2> <span>3.</span> Concevoir une base de données relationnelle à partir d’un cahier des charges </h2>
+			</header>
+
+
+			<section>
+
+				<div class = "etape1">
+					<h3> Etape 1 : </h3>
+
+					<p> Le MLD </p>
+
+					<figure>
+						<img src = '../images/competence4/3/mld.png' alt = 'MLD'>
+
+						<figcaption> <i> Modèle relationnelle qui nous avait été donné </i> </figcaption>
+					</figure>
+				</div>
+
+				<div class = "fleche">
+					<div id = 'haut1'  ></div>
+					<div id = 'pointe1'></div>
+				</div>
+
+				<div class = "etape3">
+					<h3> Etape 2 </h3>
+
+					<p>
+						On crée le MCD : <br><br>
+
+						<b> Salarie      </b> ( <u>matricule_s</u> , #nom_et, nom_s, tranche_impot, #matricule_s )                  <br>
+						<b> Etablissement</b> ( <u>nom_et</u>, adr_et )                                                       <br>
+						<b> Type_cadeau  </b> ( <u>ref_cad</u>, lib_cad, photo_cad, prix_cad )                                  <br>
+						<b> Br_cadeau    </b> ( <u>num_br</u>, #ref_cad, #code_enf )                                              <br>
+						<b> Enfant       </b> ( <u>code_enf</u>, #matricule_s, prenom_enf, date_naiss_enf, #num_c, #num_lieu, mois ) <br>
+						<b> Centre       </b> ( <u>num_c</u>, #num_lieu , nom_c, adr_c, tarif_c, capacite_c, tranche_age)            <br>
+						<b> Lieu         </b> ( <u>num_lieu</u>, nom_lieu, type_lieu, )                                                <br>
+						<b> Fournisseur  </b> ( <u>code_f</u>, nom_f, adr_f, date_com, )                                        <br>
+						<b> Cadeau       </b> ( <u>num_cad</u>, #ref_cad, #code_f, qte )
+					</p>
+				</div>
+
+				<div class = "fleche">
+					<div id = 'haut1'  ></div>
+					<div id = 'pointe3'></div>
+				</div>
+
+				<div class = "etape5">
+					<h3> Etape 3 </h3>
+
+					<p>
+						On crée la table de création selon les consignes
+					</p>
+
+					<figure>
+						<img src = '../images/competence4/3/consignes.png' alt = 'Consignes'>
+	
+						<figcaption> <i> Consignes </i> </figcaption>
+					</figure>
+	
+					<figure>
+						<img src = '../images/competence4/3/requetes.png' alt = 'Requêtes création des tables'>
+	
+						<figcaption> <i>Requetes de création des tables </i> </figcaption>
+					</figure>
+				</div>
+
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '6', '5' )">
+				← Précédent
+			</div>
+
+		</article>
+
+
+	</body>
+
+</html>
