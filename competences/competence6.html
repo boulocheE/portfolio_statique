@@ -14,7 +14,7 @@
 
 	<body id = "competences">
 
-		<head>
+		<header>
 			<nav class = "navComp">
 				<h1> <a href = "../index.html"> Portfolio </a> </h1>
 
@@ -75,7 +75,306 @@
 
 				</ul>
 			</nav>
-		</head>
+		</header>
+
+
+		<article id = "page1">
+			<header>
+				<h2> Compétence 6 </h2>
+			</header>
+
+			<section>
+				<h3> Sommaire </h3>
+
+				<ol>
+					<li onclick = "pageSuivante(event, '1', '3')"> Appréhender l’écosystème numérique                                                                  </li>
+					<li onclick = "pageSuivante(event, '1', '4')"> Découvrir les aptitudes requises selon les différents secteurs informatiques                        </li>
+					<li onclick = "pageSuivante(event, '1', '5')"> Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire </li>
+					<li onclick = "pageSuivante(event, '1', '6')"> Acquérir les compétences interpersonnelles pour travailler en équipe                                </li>
+				</ol>
+			</section>
+
+			<section>
+				<h3> Projets </h3>
+
+				<ul>
+					<li> SAE 1.06 - Découverte de l'environnement et économique et écologique                  </li>
+					<li> PPP - Rencontres professionnelles                                                     </li>
+					<li> DS SAE 2.06 - Création d'un évènement de rencontres entre étudiants et professionnels </li>
+				</ul>
+			</section>
+
+			<div class = "btnPageS" onclick = "pageSuivante( event, '1', '2' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page2">
+			<header>
+				<h2> <span> Projet 1 : </span> SAE 1.06 - Découverte de l'environnement et économique et écologique </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Le numérique est devenu un secteur important. Suite à la vitesse du développement des technologies numériques,
+					notre vie s’est vu subir un impact considérable sur notre mode de vie.
+					Les infrastructures et services numériques sont devenus essentiels pour communiquer,
+					nous déplacer ou gouverner nos démocraties… Au point de devenir même des sujets sociétaux dépassant les simples technologies en elles-mêmes. <br><br>
+
+					Cependant, cette utilisation fréquente d’appareils numériques n’est pas sans impact.
+					En effet, ce secteur engendre plusieurs problèmes écologiques (émissions de gaz à effet de serre, contaminations chimiques…),
+					des questions liées à l’utilisation de l’énergie, l’utilisation des ressources naturelles et sur la gestion des déchets électroniques devenus
+					de plus en plus importants. Il est donc urgent de comprendre ces impacts afin de pouvoir adopter des pratiques durables,
+					efficaces et rapides pour protéger notre planète tout en répondant aux besoins du présent sans compromettre la capacité des générations futures.
+					Mais quels sont donc les impacts du numérique sur l’environnement ? <br><br>
+
+					Dans un premier temps, nous définirons le terme de “numérique” dans son ensemble, puis nous observerons les différents impacts négatifs
+					que le numérique engendre sur la population et l’environnement,
+					puis nous terminerons par trouver des solutions qui pourrait nous amener à une sobriété numérique.
+				</p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '2', '1' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '2', '3' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+
+		<article id = "page3">
+			<header>
+				<h2> <span> Projet 2 : </span> PPP - Rencontres professionnelles </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Nous avons eu l'occasion de rencontrer des professionnels durant 3 jours. Durant ces journées, nous avons pu rencontrer des professionnels travaillant dans des ESN, le public, mais aussi dans des structures comme Renault. <br>
+					Ainsi, nous avons pu avoir un premier contact avec le monde du travail.
+				</p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '3', '2' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '3', '4' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+
+		<article id = "page4">
+			<header>
+				<h2> <span> Projet 3 : </span> DS SAE 2.06 - Création d'un évènement de rencontres entre étudiants et professionnels </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Suite à la SAE 2.06, qui consistait à créer un évènement pour que les étudiants puissent rencontrer des professionnels, nous avons eu un DS.
+					Ce dernier était une rélfexion personnelle sur ce que nous avions acquis durant la SAE.
+				</p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '4', '3' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '4', '5' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page5">
+			<header>
+				<h2> <span> 1.</span> Appréhender l’écosystème numérique </h2>
+			</header>
+
+
+			<section>
+				<h3> L'impact négatif du numérique </h3>
+
+				<ul> 
+					<li> <b>La pollution : </b>
+						<ul>
+							<li> Les équipements des usagers et infrastructures (terminaux);                 </li>
+							<li> Les réseaux déployés ou en développement en France d'ici 2025;              </li>
+							<li> Les Data Center et ce qu'ils contiennent (matériels numérique/informatique) </li>
+						</ul>
+					</li>
+
+					<li> <b>L'impact économique :</b> les câbles sous-marin de fibre optique appartiennent en majorité aux GAFAM </li>
+
+					<li> <b>Une consommation énergétique importante :</b>
+						<ul>
+							<li> Les centres de données et les équipements informatiques ont une forte consommation d'énergie dû au stockage des données </li>
+							<li> Les box et Wi-Fi peuvent consommer de l'électricité inutilement si ils restent brancher                                 </li>
+						</ul>
+					</li>
+				</ul>
+
+
+				<h3> Les solutions à apporter </h3>
+
+				<ul>
+					<li> <b> Une communication basée sur la prévention : </b>
+						<ul>
+							<li> Sensibiliser les utilisateurs sur les conséquences environnementales;       </li>
+							<li> Promouvoir la réparation plutôt que la consommation;                        </li>
+							<li> Limiter l'achat des appareils numériques tel que les téléviseurs 4K, 8K...; </li>
+							<li> Préviligier la lecture des vidéos dans des résolutions plus basses;         </li>
+							<li> Eteindre les équipements numériques;                                        </li>
+							<li> ... </li>
+						</ul>
+					</li>
+
+					<li> <b> Recherches environnementales </b>
+						<ul>
+							<li> Recherches sur le refroidissement des data centers;                                                            </li>
+							<li> Implémenter des data center dans des des climats froid et dans des milieux avec une quantité d'eau suffisante; </li>
+							<li> Utiliser des générateurs de secours au gaz ou au biomasse;                                                     </li>
+							<li> ... </li>
+						</ul>
+					</li>
+
+					<li> <b> L'ACERP, une autorité administratice indépendante </b>
+						<ul>
+							<li> Collecte de données sur l'impact écologique; </li>
+							<li> Coopération avec les acteurs du numérique;   </li>
+							<li> Écoconception des équipements;               </li>
+							<li> Sensibilisation des utilisateurs.            </li>
+						</ul>
+					</li>
+
+					<li> <b> Des objectifs à atteindre </b>
+						<ul>
+							<li> Objectif de neutralité carbone;                     </li>
+							<li> Engagements des grandes entreprises technologiques; </li>
+							<li> Interventions pour la prévention;                   </li>
+							<li> Construction d'un numérique européen résilient.     </li>
+						</ul>
+					</li>
+
+					<li> <b> Actions effectuées </b>
+						<ul>
+							<li> Optimisation des logiciels et réseaux; </li>
+							<li> Amélioration de la climatisation.      </li>
+						</ul>
+					</li>
+				</ul>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '5', '4' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '5', '6' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page6">
+			<header>
+				<h2> <span> 2.</span> Découvrir les aptitudes requises selon les différents secteurs informatiques </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Suite à la SAE 2.06, qui consistait à créer un évènement pour que les étudiants puissent rencontrer des professionnels, nous avons eu un DS.
+					Ce dernier était une rélfexion personnelle sur ce que nous avions acquis durant la SAE.
+				</p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '6', '5' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '6', '7' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page7">
+			<header>
+				<h2> <span> 3.</span> Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Suite à la SAE 2.06, qui consistait à créer un évènement pour que les étudiants puissent rencontrer des professionnels, nous avons eu un DS.
+					Ce dernier était une rélfexion personnelle sur ce que nous avions acquis durant la SAE.
+				</p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '7', '6' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '7', '8' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page8">
+			<header>
+				<h2> <span> 4.</span> Acquérir les compétences interpersonnelles pour travailler en équipe </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>
+					Suite à la SAE 2.06, qui consistait à créer un évènement pour que les étudiants puissent rencontrer des professionnels, nous avons eu un DS.
+					Ce dernier était une rélfexion personnelle sur ce que nous avions acquis durant la SAE.
+				</p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '8', '7' )">
+				← Précédent
+			</div>
+
+		</article>
 
 	</body>
 
