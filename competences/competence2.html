@@ -78,6 +78,308 @@
 		</header>
 
 
+
+		<article id = "page1">
+			<header>
+				<h2> Compétence 2 </h2>
+			</header>
+
+			<section>
+				<h3> Sommaire </h3>
+
+				<ol>
+					<li onclick = "pageSuivante(event, '1', '3')"> Analyser un problème avec méthode                                                   </li>
+					<li onclick = "pageSuivante(event, '1', '4')"> Comparer des algorithmes pour des problèmes classiques                              </li>
+					<li onclick = "pageSuivante(event, '1', '5')"> Expérimenter la notion de compilation et les représentations bas niveau des données </li>
+					<li onclick = "pageSuivante(event, '1', '6')"> Formaliser et mettre en oeuvre des outils mathématiques pour l'informatique         </li>
+				</ol>
+			</section>
+
+			<section>
+				<h3> Projets </h3>
+
+				<ul>
+					<li> SAE 2.01 - CinkeTera                           </li>
+					<li> Comparaisons de tris et de recherches          </li>
+					<li> Algorithme de dénombrement de nombres premiers </li>
+					<li> SAE 2.02 - Graphes                             </li>
+				</ul>
+			</section>
+
+			<div class = "btnPageS" onclick = "pageSuivante( event, '1', '2' )">
+				Suivant →
+			</div>
+		</article>
+
+
+		<article id = "page2">
+			<header>
+				<h2> <span> Projet 1 : </span> CinkeTera </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p> </p>
+
+				<figure>
+					<img src = '../images/competence1/CinkeTera.png' alt = 'Image du jeu'>
+
+					<figcaption> <i> Schéma du jeu </i> </figcaption>
+				</figure>
+
+				<ol>
+					<li> Le plateau                                              </li>
+					<li> Les délimitations des régions                           </li>
+					<li> Les voies maritimes aux points bonus                    </li>
+					<li> Le journal                                              </li>
+					<li> Le résultat du score                                    </li>
+					<li> Boutons permettant de passer son tour ou quitter le jeu </li>
+					<li> Le paquet                                               </li>
+					<li> La carte actuelle                                       </li>
+					<li> La voie maritime choisie par l'utilisateur              </li>
+					<li> Les voies maritimes pouvant être jouées                 </li>
+					<li> Les voies maritimes qui ne sont pas encore jouées       </li>
+				</ol>
+
+			</section>
+
+
+			<section>
+				<h3> Langage utilisé : </h3>
+
+				<ul>
+					<li> Java </li>
+				</ul>
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '2', '1' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '2', '3' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+
+		<article id = "page3">
+			<header>
+				<h2> <span> Projet 2 : </span> Comparaisons de tris et de recherches </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p> </p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '3', '2' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '3', '4' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+		<article id = "page4">
+			<header>
+				<h2> <span> Projet 3 : </span> Algorithme de dénombrement de nombres premiers </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p> </p>
+
+			</section>
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '4', '3' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '4', '5' )">
+				Suivant →
+			</div>
+
+		</article>
+
+		<article id = "page5">
+			<header>
+				<h2> <span> Projet 4 : </span> SAE 2.02 - Graphes </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p> Implémentation de graphes à l'aide d'une IHM que nous avons développé. Il calcule le score du joueur, change de couleur, il ne crée pas de cycle ni d'intersection. </p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '5', '4' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '5', '6' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+		<article id = "page6">
+			<header>
+				<h2> <span> 1.</span> Analyser un problème avec méthode </h2>
+			</header>
+
+
+			<section>
+				<h3> Modularité </h3>
+
+				<p>
+					Lors du développement du jeu CinkeTera, nous avons créé une méthode <b>jouer</b> qui effectue différents.<br>
+					Afin d'alléger le code, de le rendre plus compréhensible et modulable, nous avons créé différentes méthodes privées, effectuant chacune un test différent.
+				</p>
+
+				<figure>
+					<img src = '../images/competence2/jouer.png' alt = 'Méthode jouer'>
+
+					<figcaption> <i> Méthode jouer </i> </figcaption>
+				</figure>
+
+
+				<p> De plus, nous avons aussi structuré de manière plus lisible notre score de la manière suivante : </p>
+
+				<figure>
+					<img src = '../images/competence2/score.png' alt = 'Méthode score'>
+
+					<figcaption> <i> Méthode score </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence2/scoreP.png' alt = 'Score principal'>
+
+					<figcaption> <i> Méthode scorePrincipal appelée dans la méthode score </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence2/scoreL.png' alt = 'Score ligne'>
+
+					<figcaption> <i> Méthode scoreLigne appelée dans la méthode score </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence2/scoreI.png' alt = 'Score iles'>
+
+					<figcaption> <i> Méthode scoreIle appelée dans la méthode score </i> </figcaption>
+				</figure>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '6', '5' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '6', '7' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+		<article id = "page7">
+			<header>
+				<h2> <span> 2.</span> Comparer des algorithmes pour des problèmes classiques </h2>
+			</header>
+
+
+			<section>
+				<h3>  </h3>
+
+				<p> </p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '7', '6' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '7', '8' )">
+				Suivant →
+			</div>
+
+
+		</article>
+
+		<article id = "page8">
+			<header>
+				<h2> <span> 3.</span> Expérimenter la notion de compilation et les représentations bas niveau des données </h2>
+			</header>
+
+
+			<section>
+				<h3> Présentation du projet : </h3>
+
+				<p>  </p>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '8', '7' )">
+				← Précédent
+			</div>
+	
+			<div class = "btnPageS" onclick = "pageSuivante( event, '8', '9' )">
+				Suivant →
+			</div>
+
+		</article>
+
+		<article id = "page9">
+			<header>
+				<h2> <span> 4.</span> Formaliser et mettre en oeuvre des outils mathématiques pour l'informatique </h2>
+			</header>
+
+
+			<section>
+				<h3> IHM des graphes </h3>
+
+				<figure>
+					<img src= '../images/competence2/SAE2.02.png' alt = 'IHM du graphe'>
+
+					<figcaption> <i> IHM que nous avons développé pour les graphes </i> </figcaption>
+				</figure>
+
+				<figure>
+					<img src = '../images/competence2/' alt = 'Code du graphe'>
+
+					<figcaption> <i> Code de notre graphe </i> </figcaption>
+				</figure>
+
+			</section>
+
+
+			<div class = "btnPageP" onclick = "pageSuivante( event, '9', '8' )">
+				← Précédent
+			</div>
+
+		</article>
+
 	</body>
 
 </html>

@@ -6,7 +6,9 @@
 }
 
 
-h1, h2, h3, h4, p, figure { margin-bottom : 2%; }
+h1, h2, h3, h4, p { margin-bottom : 2%; }
+
+figure { margin : 1% 0 1% 0; }
 
 article li { margin-left : 5%; }
 article li li { margin-left : 10%; }
